@@ -7,7 +7,7 @@ MAINTAINER "MASIHULLA"
 RUN yum install git -y
 
 # git cloneing to docker
-RUN git clone https://github.com/masihulla/hello-tomcat.git
+# RUN git clone https://github.com/masihulla/hello-tomcat.git
 # copying the git file
 COPY ./job.html /usr/local/tomcat/webapps/myapps
 
