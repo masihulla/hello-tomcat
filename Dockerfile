@@ -1,5 +1,3 @@
-mkdir /opt/docker
-
 # pull base image
 From tomcat:8-jre8
 
